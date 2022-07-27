@@ -8,6 +8,7 @@ import Timezone from './components/Timezone'
 function App() {
   return (
     <div>
+      {/* 기본 사용과 useState */}
       <First name="변승훈" number={27}/>
       <hr />
       <Intro name="변승훈" age={27} email="toffg6450@naver.com" introduce="React를 처음 접하는 프론트엔드 꿈나무 개발자 입니다!"/>
