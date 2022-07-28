@@ -6,6 +6,7 @@ import Comp2 from "./components/Comp2";
 import Handlers from "./components/Handlers";
 import Login from "./components/Login";
 import Refs from "./components/Refs";
+import Newtimer from "./components/Newtimer";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
     <Login />
     <hr />
     <Refs />
+    <hr />
+    <Newtimer />
     </>
   )
 }
