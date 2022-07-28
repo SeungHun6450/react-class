@@ -11,7 +11,6 @@ function Newtimer() {
 
   const startTimer = (e) => {
     if(e.key === 'Enter') {
-      setSeceonds(e.target.value)
       setIsClicked(true)
     }
   }
