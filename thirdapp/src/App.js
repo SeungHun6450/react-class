@@ -5,6 +5,7 @@ import { ThemeProvider } from 'styled-components'
 import theme from './styles/theme'
 import GlobalStyle from './styles/globalStyle'
 import TodoList from './components/TodoList'
+import TodoListNew from './components/TodoListNew'
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       </ThemeProvider> */}
       <ThemeProvider theme={theme}>
         <GlobalStyle />
-        <TodoList />
+        {/* <TodoList /> */}
+        <TodoListNew />
       </ThemeProvider>
     </div>
   )
