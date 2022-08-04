@@ -1,6 +1,6 @@
 import React from "react";
 import useAsync from "../hooks/useAsync";
-import getWeather from "../utils/getWeather";
+import { getWeather } from "../utils/getWeather";
 
 function Weather() {
   const state = useAsync(getWeather);
