@@ -1,6 +1,6 @@
 import React from "react";
 import useAsync from "../hooks/useAsync";
-import { getWeather } from "../utils/getWeather";
+import getWeather from "../utils/getWeather";
 
 function Weather() {
   const state = useAsync(getWeather);
@@ -14,9 +14,7 @@ function Weather() {
         weather.map((element) => {
           return (
             <p>
-              {element.category}
-              {element.fcstDate}
-              {element.fcstTime}
+              {element.category},{element.fcstDate},{element.fcstTime},
               {element.fcstValue}
             </p>
           );
