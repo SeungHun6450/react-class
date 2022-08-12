@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "title": "123",
+      "body": "123",
+      "id": 1,
+      "userId": 1
+    },
+    {
+      "title": "12345",
+      "body": "12345",
+      "id": 2,
+      "userId": 2
+    },
+    {
+      "title": "1234567",
+      "body": "1234567",
+      "id": 3,
+      "userId": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "toffg6450@naver.com",
+      "password": "$2a$10$fVdytBh6KZq0ATK8eYbYC.tqkC8RVZ8tuaBvcw.3xp.yYr0qWilxG",
+      "id": 1
+    }
+  ]
+}
